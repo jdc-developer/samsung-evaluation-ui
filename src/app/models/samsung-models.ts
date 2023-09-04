@@ -18,4 +18,8 @@ export interface DocumentDTO {
     documentDate: string;
     documentValue: number;
     currencyCode: string;
+    currencyDesc?: string;
+    valueUSD?: number;
+    valuePEN?: number;
+    valueBRL?: number;
 }

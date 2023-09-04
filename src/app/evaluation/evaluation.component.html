@@ -87,11 +87,11 @@
                 <td>{{ document.documentNumber }}</td>
                 <td>{{ document.documentDate | date:'dd/MM/yyyy' }}</td>
                 <td>{{ document.currencyCode }}</td>
-                <td></td>
+                <td>{{ document.currencyDesc }}</td>
                 <td>{{ document.documentValue }}</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>{{ document.valueUSD | number:'1.2-2' }}</td>
+                <td>{{ document.valuePEN | number:'1.2-2' }}</td>
+                <td>{{ document.valueBRL | number:'1.2-2' }}</td>
             </tr>
         </tbody>
     </table>
